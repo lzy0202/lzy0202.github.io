@@ -24,7 +24,7 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
     if (e && (e.keyCode == 123)) {
         e.keyCode = 0;
         e.returnValue = false;
-        btf.snackbarShow('此处添加按F12时提示的文字');
+        btf.snackbarShow('本站禁止F12事件');
         return (false);
     }
 }
