@@ -4,110 +4,25 @@
   
     
     <entry>
-      <title>概率论</title>
-      <link href="/post/155618b9.html"/>
-      <url>/post/155618b9.html</url>
+      <title>Conda常用命令</title>
+      <link href="/post/8dd1eaf4.html"/>
+      <url>/post/8dd1eaf4.html</url>
       
-        <content type="html"><![CDATA[<p>$z=x^2+\sqrt{y}-6$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 概率论 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>深度学习</title>
-      <link href="/post/33115a55.html"/>
-      <url>/post/33115a55.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="一、conda-info"><a href="#一、conda-info" class="headerlink" title="一、conda info"></a>一、conda info</h2><p>列出所有的conda环境：</p><blockquote><p>conda info -e</p></blockquote><h2 id="二、conda-create"><a href="#二、conda-create" class="headerlink" title="二、conda create"></a>二、conda create</h2><h5 id="1、创建一个虚拟环境"><a href="#1、创建一个虚拟环境" class="headerlink" title="1、创建一个虚拟环境"></a>1、创建一个虚拟环境</h5><blockquote><p>conda create -n my_env</p></blockquote><p><strong>my_env</strong>是你的环境名，是自定义的</p><h5 id="2、激活或进入环境"><a href="#2、激活或进入环境" class="headerlink" title="2、激活或进入环境"></a>2、激活或进入环境</h5><blockquote><p>conda activate my_env</p></blockquote><p><strong>conda</strong>可以省略</p><h5 id="3、查看包"><a href="#3、查看包" class="headerlink" title="3、查看包"></a>3、查看包</h5><p>刚创建时是没有任何包的</p><blockquote><p>conda list</p></blockquote><h5 id="4、创建-安装包"><a href="#4、创建-安装包" class="headerlink" title="4、创建+安装包"></a>4、创建+安装包</h5><blockquote><p>conda create -n my_env python=版本 numpy pandas</p></blockquote><h5 id="5、退出环境"><a href="#5、退出环境" class="headerlink" title="5、退出环境"></a>5、退出环境</h5><blockquote><p>conda deactivate</p></blockquote><h2 id="三、conda-install"><a href="#三、conda-install" class="headerlink" title="三、conda install"></a>三、conda install</h2><h5 id="1、先进入环境再安装"><a href="#1、先进入环境再安装" class="headerlink" title="1、先进入环境再安装"></a>1、先进入环境再安装</h5><blockquote><p>conda activate my_env</p><p>conda install python=3.9.6</p></blockquote><h5 id="2、直接安装"><a href="#2、直接安装" class="headerlink" title="2、直接安装"></a>2、直接安装</h5><blockquote><p>conda install -n my_env python=3.9.6</p></blockquote><h2 id="四、conda-remove"><a href="#四、conda-remove" class="headerlink" title="四、conda remove"></a>四、conda remove</h2><h5 id="1、移除环境中某个包"><a href="#1、移除环境中某个包" class="headerlink" title="1、移除环境中某个包"></a>1、移除环境中某个包</h5><blockquote><p>conda remove -n my_env numpy</p></blockquote><h5 id="2、移除整个环境"><a href="#2、移除整个环境" class="headerlink" title="2、移除整个环境"></a>2、移除整个环境</h5><blockquote><p>conda remove -n my_env —all</p></blockquote><h2 id="五、conda-list"><a href="#五、conda-list" class="headerlink" title="五、conda list"></a>五、conda list</h2><h5 id="1、列出当前环境的包"><a href="#1、列出当前环境的包" class="headerlink" title="1、列出当前环境的包"></a>1、列出当前环境的包</h5><blockquote><p>conda list</p></blockquote><h5 id="2、列出某个环境的包"><a href="#2、列出某个环境的包" class="headerlink" title="2、列出某个环境的包"></a>2、列出某个环境的包</h5><blockquote><p>conda list -n my_env</p></blockquote><h2 id="六、conda-update"><a href="#六、conda-update" class="headerlink" title="六、conda update"></a>六、conda update</h2><h5 id="1、更新某个环境下的特定的包"><a href="#1、更新某个环境下的特定的包" class="headerlink" title="1、更新某个环境下的特定的包"></a>1、更新某个环境下的特定的包</h5><blockquote><p>conda update -n my_env numpy scipy</p></blockquote><h5 id="2、更新某个环境下的所有包"><a href="#2、更新某个环境下的所有包" class="headerlink" title="2、更新某个环境下的所有包"></a>2、更新某个环境下的所有包</h5><blockquote><p>conda update -n my_env —all</p></blockquote><h5 id="3、更新conda"><a href="#3、更新conda" class="headerlink" title="3、更新conda"></a>3、更新conda</h5><blockquote><p>conda update conda</p></blockquote><h5 id="4、更新Anaconda"><a href="#4、更新Anaconda" class="headerlink" title="4、更新Anaconda"></a>4、更新Anaconda</h5><p>更新Anaconda之前要先更新conda</p><blockquote><p>conda update anaconda</p></blockquote>]]></content>
       
       
       <categories>
-          
-          <category> 计算机 </category>
           
           <category> 人工智能 </category>
           
-          <category> 深度学习 </category>
+          <category> Conda </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 深度学习 </tag>
-            
-            <tag> 计算机 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>编程语言</title>
-      <link href="/post/e8e4f258.html"/>
-      <url>/post/e8e4f258.html</url>
-      
-        <content type="html"><![CDATA[<p>$f(x)=\sqrt{x^3}+x-1$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机 </category>
-          
-          <category> C </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机 </tag>
-            
-            <tag> 编程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/post/4a17b156.html"/>
-      <url>/post/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>$f(x)=x^2+1$<br>$y=\sqrt{x}-x^2+1$<br>$y=x_1+x_2+x^2+\sqrt{2x}+1$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-          <category> 微积分 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数学 </tag>
+            <tag> Conda </tag>
             
         </tags>
       
